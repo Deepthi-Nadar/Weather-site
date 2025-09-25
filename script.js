@@ -284,10 +284,10 @@ function displayHistoricalDay(data, wrap){
 
   const stats = [
     { id: 'histHum', title: 'Humidity', value: `${Math.round(hum)}%`, text: humComfort(hum), icon: 'icons/humidity.svg/humidity.svg' },
-    { id: 'histPress', title: 'Pressure', value: `${Math.round(press)} mb`, text: 'Normal pressure', icon: 'icons new/barometer.svg/barometer.svg' },
-    { id: 'histVis', title: 'Visibility', value: `${visKm.toFixed(0)} km`, text: visText(visKm), icon: 'icons new/horizon.svg/horizon.svg' },
+    { id: 'histPress', title: 'Pressure', value: `${Math.round(press)} mb`, text: 'Normal pressure', icon: 'icons%20new/barometer.svg/barometer.svg' },
+    { id: 'histVis', title: 'Visibility', value: `${visKm.toFixed(0)} km`, text: visText(visKm), icon: 'icons%20new/horizon.svg/horizon.svg' },
     { id: 'histWind', title: 'Wind Speed', value: `${Math.round(wind)} km/h`, text: windText(wind), icon: 'icons/wind.svg/wind.svg' },
-    { id: 'histFeels', title: 'Feels Like', value: `${Math.round(feels)}°C`, text: 'Relative to wind & humidity', icon: 'icons new/thermometer.svg/thermometer.svg' }
+    { id: 'histFeels', title: 'Feels Like', value: `${Math.round(feels)}°C`, text: 'Relative to wind & humidity', icon: 'icons%20new/thermometer.svg/thermometer.svg' }
   ];
 
   stats.forEach(stat => {
